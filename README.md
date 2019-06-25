@@ -11,6 +11,8 @@ retrain.py -
 Transfer Learning is adopted to reduce computational complexity. The Inception v3 model which has been trained from scratch on ImageNet dataset
 is retrained using this script.The program produces a graph object as the output.
 
+quantize_graph.py - quantizes the output graph
+
 evaluate.py - 
 Evaluates the retrained graph and calculates classification accuracy. 
 
