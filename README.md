@@ -1,6 +1,6 @@
 # breastcancerclassification
 Classification of histopathological breast cancer histopathological images using Inception v3 
-The dataset is available at the following link:
+The dataset is available at:
 https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
 
 pngtojpeg.py - conversion of png images(default type of dataset) to jpeg(requirement of Inception v3)
