@@ -1,11 +1,11 @@
 # breastcancerclassification
-Classification of histopathological breast cancer histopathological images using Inception v3 
-The dataset is available at:
+Classification of histopathological breast cancer histopathological images using Inception v3.
+ The dataset is available at:
 https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
 
 pngtojpeg.py - conversion of png images(default type of dataset) to jpeg(requirement of Inception v3)
 
-AugmentClass.py - Data Augmentation techniques of scaling,flipping,rotation by 90,120 and 270 degrees are implemented.
+AugmentClass.py - Data Augmentation techniques of scaling,flipping,rotation by 90,120 and 270 degrees and addition of white noise are implemented.
 
 retrain.py -
 Transfer Learning is adopted to reduce computational complexity. The Inception v3 model which has been trained from scratch on ImageNet dataset
