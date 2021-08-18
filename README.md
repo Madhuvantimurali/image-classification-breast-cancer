@@ -16,3 +16,4 @@ quantize_graph.py - quantizes the output graph
 evaluate.py - 
 Evaluates the retrained graph and calculates classification accuracy. 
 
+Dedup Images.ipnyb - Jupyter notebook that enables de-duplication of images in a given location
